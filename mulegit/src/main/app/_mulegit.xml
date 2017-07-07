@@ -7,5 +7,6 @@
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
     <flow name="_mulegitFlow">
         <logger level="INFO" doc:name="Logger"/>
+        <set-payload value="Test" doc:name="Set Payload"/>
     </flow>
 </mule>
